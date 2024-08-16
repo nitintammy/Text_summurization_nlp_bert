@@ -1,0 +1,22 @@
+transformers
+dataset
+sacrebleu
+rouge_score #calculate the rouge score
+py7zr #handling .7z (7-Zip) archive files,compressing datasets and models
+pandas
+nltk
+tqdm #creating progress bars in Python loops,easier to monitor the progress of long-running tasks.
+PyYAML #Used for parsing YAML (YAML Ain't Markup Language) configuration file
+matplotlib
+torch
+boto3 #used to interact with AWS services like S3, EC2, and more
+notebook 
+mypy-boto3-s3 #Provides type annotations and auto-completion for the AWS S3 service
+python-box ==6.0.2 # library that makes it easier to create and use dot notation with dictionaries
+ensure==1.0.2 # validation and error-checking mechanisms, ensuring that certain conditions are met within the code
+fastapi==0.78.0 #web framework for building APIs
+uvicorn==0.18.3 #fast ASGI (Asynchronous Server Gateway Interface) server implementation, often used to serve FastAPI applications.
+Jinja2==3.1.2
+ #used in web applications to dynamically generate HTML pages based on data
+-e . #command used in a requirements.txt file to install the current package in "editable" mode. It allows you to apply changes in the source code directly without reinstalling.
+transformers[sentencepiece] #which is used for tokenization tasks
